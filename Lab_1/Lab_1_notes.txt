@@ -1,0 +1,44 @@
+GS/s Gigasamples per second
+100Mhz:  it determines the maximum frequency that the instrument can accurately measure. Bandwidth is also a key determining factor in price. For example, a 100 MHz oscilloscope is usually guaranteed to have less than 30% attenuation at 100 MHz.
+
+freq is mentioned
+amplitude (Vpp voltage peak to peak) and phase is also mentioned
+
+BNC to BNC cable
+cable has male connectors
+
+system has female connectors
+
+the channels on DSO numbered
+
+after connecting to the oscilloscope we should autoset it once
+
+Position knob can be used to move the wave form up and down
+
+Scale knob scales up or down the input signal.
+
+Coupling:
+AC data is through AC Path only AC signal is availble
+DC data is through DC path and both AC and DC are visible
+
+BandWidth limit:
+it displays the input till the bandwidth value if it is on and nothing above that
+
+volts/div:
+coarse signal or fine signal
+scale can be adjusted finely or coarsely
+
+Probe 1X voltage:
+voltage, current, Attenuation
+attenuation: attenuated by n times and displayed
+
+Invert:
+inverts the input signal
+
+AFG3021B
+TDS2012C
+
+delta V :
+it is the diff between the cursor 1 and cursor 2
+
+Why peak to peak value is different from the generated signal to measured signal
