@@ -1,4 +1,4 @@
-function output_Mat = kronfun(Mat_A,Mat_B)
+function output_Mat = kronecker(Mat_A,Mat_B)
     size_A = size(Mat_A);
     size_B = size(Mat_B);
     
