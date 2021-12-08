@@ -1,0 +1,6 @@
+#IGNORE THE ZIP FILE AND DOCX FILES
+*.docx
+*.zip
+exp5*
+FM*
+Experiment 5 Frequency Modulation.pdf

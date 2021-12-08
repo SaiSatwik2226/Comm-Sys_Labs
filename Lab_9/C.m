@@ -1,0 +1,30 @@
+PWM_demod = demod(PWM, fc, Fs, 'pwm');
+figure;
+subplot(2,1,1);
+plot(t,m);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Message Signal');
+axis([0 L/Fs -1.2 1.2]);
+subplot(2,1,2);
+plot(t(1:Fs/fc:L), PWM_demod);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Demodulated PWM Signal');
+axis([0 L/Fs -1.2 1.2]);
+
+
+PPM_demod = demod(PPM, fc, Fs, 'ppm', 0.5);
+figure;
+subplot(2,1,1);
+plot(t, m);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Message Signal');
+axis([0 L/Fs -1.2 1.2]);
+subplot(2,1,2);
+plot(t(1:Fs/fc:L), PPM_demod);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Demodulated PPM Signal');
+axis([0 L/Fs -1.2 1.2]);
